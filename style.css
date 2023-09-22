@@ -1,0 +1,17 @@
+h1{
+    color:rgb(37, 70, 131);
+    font-size: 100px;
+    margin-left: 450px;
+    margin-bottom: 500px;
+}
+body{
+    background-image: url(./img/Liney.jpg);
+    background-size: 100%;
+    
+}
+h2{
+    color: rgb(37, 70, 131);
+    font-size: 85px;
+    margin-left: 500px;
+    
+}

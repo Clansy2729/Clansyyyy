@@ -7,6 +7,7 @@ h1{
 body{
     background-image: url(./img/Liney.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     
 }
 h2{
@@ -14,4 +15,24 @@ h2{
     font-size: 85px;
     margin-left: 500px;
     
+}
+.Allhere{
+    color:white;
+    background-color: rgb(37, 70, 131);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+    
+}
+.Allhere:hover{
+    background-color:rgb(88, 136, 241);
+}
+.p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main-info{
+    display: flex;
+    justify-content: space-between;
 }

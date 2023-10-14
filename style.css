@@ -35,4 +35,9 @@ h2{
 .main-info{
     display: flex;
     justify-content: space-between;
+    margin-right: 1%;
+}
+.main-info_logo{
+    margin-left: 135px;
+    margin-bottom: 400px;
 }

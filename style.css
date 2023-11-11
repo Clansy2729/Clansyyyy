@@ -40,16 +40,35 @@ h2{
     margin-left: 135px;
     margin-bottom: 400px;
 } 
-.prostotak{
+.gipotenuza{
     border: none;
     color: white;
     background-color: rgb(37, 70, 131);
     border-radius:7px ;
     cursor:pointer;
     font-size: 20px;
+    block-size: 60px;
 }
-.prostotak:hover{
+.gipotenuza:hover{
     background-color: rgb(88, 136, 241);
     color: rgba(167, 255, 132, 0.975);
 }
-
+.homework{
+    background-image:url(./img/1670534768_14-kartinkin-net-p-matematicheskie-formuli-kartinki-pinterest-15.png);
+    background-size: 34%;
+    display: flex;
+    justify-content: space-between;
+}
+.stepen_2_10{
+    border: none;
+    color: white;
+    background-color: rgb(37, 70, 131);
+    border-radius:7px ;
+    cursor:pointer;
+    font-size: 20px;
+    block-size: 60px;
+}
+.stepen_2_10:hover{
+    background-color: rgb(88, 136, 241);
+    color: rgba(167, 255, 132, 0.975);
+}

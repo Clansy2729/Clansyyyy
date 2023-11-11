@@ -39,7 +39,7 @@ function socopros () {
   } 
 }
 //своя работа
-function prostotak () {
+function gipotenuza () {
   let a = prompt('введите катет(а)')
   let b = prompt('введите катет(b)')
   let a2 = a*a 
@@ -48,5 +48,29 @@ function prostotak () {
   {
     alert(a2+b2)
   }
-
+}
+function stepen_2_10 () {
+let num = prompt('введите основание')
+let numstep = prompt('введите показатель от 2 до 10')
+if (numstep == 2) {
+  alert(num*num)
+} else if(numstep == 3){
+  alert(num*num*num)
+} else if(numstep == 4) {
+  alert(num*num*num*num)
+} else if(numstep == 5) {
+  alert(num*num*num*num*num)
+} else if(numstep == 6) {
+  alert(num*num*num*num*num*num)
+} else if(numstep == 7) {
+  alert(num*num*num*num*num*num*num)
+} else if(numstep == 8) {
+  alert(num*num*num*num*num*num*num*num)
+} else if(numstep == 9) {
+  alert(num*num*num*num*num*num*num*num*num)
+} else if(numstep == 10) {
+  alert(num*num*num*num*num*num*num*num*num*num)
+} else if(numstep < 2 || numstep > 10) {
+  alert('неверное число')
+}
 }

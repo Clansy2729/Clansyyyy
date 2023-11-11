@@ -72,3 +72,6 @@ h2{
     background-color: rgb(88, 136, 241);
     color: rgba(167, 255, 132, 0.975);
 }
+.stepen_2_10:active {
+    transform: scale(0.95);
+}

@@ -40,4 +40,16 @@ h2{
     margin-left: 135px;
     margin-bottom: 400px;
 } 
+.prostotak{
+    border: none;
+    color: white;
+    background-color: rgb(37, 70, 131);
+    border-radius:7px ;
+    cursor:pointer;
+    font-size: 20px;
+}
+.prostotak:hover{
+    background-color: rgb(88, 136, 241);
+    color: rgba(167, 255, 132, 0.975);
+}
 

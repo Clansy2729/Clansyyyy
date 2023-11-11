@@ -36,9 +36,7 @@ function socopros () {
   }else if( age == 18 || age > 18)
   {
     alert('ничего себе')
-  } else if (age > 100) {
-  alert('НЕ ВЕРЮ!!!!')
-  }
+  } 
 }
 //своя работа
 function prostotak () {

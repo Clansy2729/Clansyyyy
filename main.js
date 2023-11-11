@@ -38,3 +38,15 @@ function socopros () {
     alert('ничего себе')
   }
 }
+//своя работа
+function prostotak () {
+  let a = prompt('введите катет(а)')
+  let b = prompt('введите катет(b)')
+  let a2 = a*a 
+  let b2 = b*b
+  if (a2 > 0 && b2 > 0)
+  {
+    alert(a2+b2)
+  }
+
+}

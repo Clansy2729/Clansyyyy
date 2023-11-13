@@ -75,3 +75,19 @@ h2{
 .stepen_2_10:active {
     transform: scale(0.95);
 }
+.chet_nechet {
+    border: none;
+    color: white;
+    background-color: rgb(37, 70, 131);
+    border-radius:7px ;
+    cursor:pointer;
+    font-size: 20px;
+    block-size: 60px;
+}
+.chet_nechet:hover {
+    background-color: rgb(88, 136, 241);
+    color: rgba(167, 255, 132, 0.975);
+}
+.chet_nechet:active {
+    transform: scale(0.95);
+}

@@ -1,4 +1,4 @@
-
+//почему тут ничего не было
 // let pass = 'AkV';
 // let writePass = prompt('vvedite parol')
 
@@ -73,4 +73,14 @@ if (numstep == 2) {
 } else if(numstep < 2 || numstep > 10) {
   alert('неверное число')
 }
+}
+// домашнее задание 7
+function chet_nechet () {
+  let num7 = prompt('введите число')
+  let chetn = 2
+  if (num7 % 2 == 0) {
+    alert('Четное число')
+  } else {
+    alert('нечетное число')
+  }
 }

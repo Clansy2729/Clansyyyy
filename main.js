@@ -84,3 +84,46 @@ function chet_nechet () {
     alert('нечетное число')
   }
 }
+//Задание 5
+function random (min, max) {
+  min = Math.ceil(1);
+  max = Math.floor(11);
+  alert (Math.floor(Math.random() * (11 - 1)) + 1); 
+}
+//задание 6
+function massiv_do_n() {
+let n = prompt('введите число')
+function massiv_n(n){ 
+ let massiv = [];
+ for(let i = 1; i <= n; i++)
+massiv.push(i)
+return massiv;
+}
+console.log(massiv_n(n))
+}
+//задание 7
+function massiv_2(){
+function massiv_reverse() {
+  let zadnaper = [10, 27, 33, 67, 90, 235, 353, 987, 1000];
+  zadnaper.reverse()
+  return zadnaper;
+}
+console.log(massiv_reverse())
+}
+//задание 1
+let arr = [];
+let number = 99881;
+  arr.push(number); 
+function massiv_3 () {
+ console.log(arr)
+}
+//задание 2
+function console_prevet () {
+  let ghhg = 2;
+  let ghhy = 1;
+  while(ghhy <= ghhg) {
+    console.log('Превет');
+    ghhy++;
+  }
+}
+//задание 3

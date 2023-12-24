@@ -91,3 +91,35 @@ h2{
 .chet_nechet:active {
     transform: scale(0.95);
 }
+.random {
+    border: none;
+    color: white;
+    background-color: rgb(37, 70, 131);
+    border-radius:7px ;
+    cursor:pointer;
+    font-size: 20px;
+    block-size: 60px;
+}
+.random:hover{
+  background-color: rgb(88, 136, 241);
+    color: rgba(167, 255, 132, 0.975);
+}
+.random:active{
+    transform: scale(0.95);
+}
+.prevet_bro {
+    border: none;
+    color: white;
+    background-color: rgb(37, 70, 131);
+    border-radius:7px ;
+    cursor:pointer;
+    font-size: 20px;
+    block-size: 60px;
+}
+.prevet_bro:hover {
+    background-color: rgb(88, 136, 241);
+    color: rgba(167, 255, 132, 0.975);
+}
+.prevet_bro:active {
+    transform: scale(0.95);
+}

@@ -1,3 +1,1 @@
-Just a guide
-LOL
-random
+just a site where im learning js

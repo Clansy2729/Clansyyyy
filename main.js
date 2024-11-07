@@ -44,9 +44,10 @@ function gipotenuza () {
   let b = prompt('введите катет(b)')
   let a2 = a*a 
   let b2 = b*b
-  if (a2 > 0 && b2 > 0)
+  let root = (a2+b2)**0.5
+  if (b2 > 0 && a2 > 0 && root > 0)
   {
-    alert(a2+b2)
+    alert(root)
   }
 }
 function stepen_2_10 () {
@@ -127,3 +128,10 @@ function console_prevet () {
   }
 }
 //задание 3
+function calcver(){
+  let m = prompt('введите общее количество возможных ситуаций');
+  let h = prompt('введите количество нужных вам ситуаций из общего количества');
+  let c = prompt('введите количество раз которое данная ситуация повторилась подряд(если нужно узнать вероятность происхождения события несколько раз подряд)');
+  let x = h / m;
+  alert(x ** c);
+}
